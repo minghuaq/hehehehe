@@ -1,6 +1,6 @@
 "use client";
 
-import useWindowSize from "@/actions/windowSize";
+import useWindowSize from "../actions/windowSize";
 import { GreenButton } from "@/components/GreenButton";
 import { useState } from "react";
 function getRandomInt(max: number) {
